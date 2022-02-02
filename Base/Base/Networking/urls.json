@@ -1,0 +1,38 @@
+
+{
+    "store_id":{
+        "scheme": "https",
+        "host": "",
+        "basePaths": ["stores"],
+        "parameters": ["id"],
+        "ending": "v2.json"
+    },
+    "store_nick":{
+        "scheme": "https",
+        "host": "",
+        "basePaths": ["stores"],
+        "parameters": ["nick"],
+        "ending": "v2.json"
+    },
+    "product_id":{
+        "scheme": "https",
+        "host": "",
+        "basePaths": ["products"],
+        "parameters": ["id"],
+        "ending": "v2.json"
+    },
+    "product_pricing":{
+        "scheme": "https",
+        "host": "",
+        "basePaths": ["api", "v5", "products"],
+        "parameters": ["id"],
+        "ending": "pricing.json"
+    },
+    "image":{
+        "scheme": "https",
+        "host": "",
+        "basePaths": ["public"],
+        "parameters": ["size", "id"],
+        "ending": ""
+    }
+}
